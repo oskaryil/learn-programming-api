@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run prod",
-    "prod": "NODE_ENV=production nodemon src/index.js",
-    "staging": "NODE_ENV=staging nodemon src/index.js",
-    "dev": "NODE_ENV=development nodemon src/index.js",
+    "prod": "NODE_ENV=production ./node_modules/.bin/nodemon src/index.js",
+    "staging": "NODE_ENV=staging ./node_modules/.bin/nodemon src/index.js",
+    "dev": "NODE_ENV=development ./node_modules/.bin/nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
