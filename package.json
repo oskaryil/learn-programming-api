@@ -1,0 +1,32 @@
+{
+  "name": "learn-programming-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run prod",
+    "prod": "NODE_ENV=production nodemon src/index.js",
+    "staging": "NODE_ENV=staging nodemon src/index.js",
+    "dev": "NODE_ENV=development nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oskaryil/learn-programming-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oskaryil/learn-programming-api/issues"
+  },
+  "homepage": "https://github.com/oskaryil/learn-programming-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "request": "^2.88.0"
+  }
+}
