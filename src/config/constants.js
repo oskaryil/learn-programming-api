@@ -4,7 +4,8 @@ const env = process.env.NODE_ENV;
 
 const defaultConfig = {
   APP_NAME: process.env.APP_NAME || 'Default app',
-  PORT: process.env.PORT || 4000
+  PORT: process.env.PORT || 4000,
+  SLACK_LEGACY_TOKEN: process.env.SLACK_LEGACY_TOKEN
 };
 
 const devConfig = {};
