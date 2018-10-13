@@ -9,8 +9,8 @@
     "staging": "NODE_ENV=staging ./node_modules/.bin/nodemon src/index.js",
     "dev": "NODE_ENV=development ./node_modules/.bin/nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pre-commit": "echo \"Running code check - lint\" && npm run lint",
-    "lint": "./node_modules/.bin/eslint src/*.js"
+    "pre-commit": "npm run lint",
+    "lint": "echo \"Running code check - lint\" && ./node_modules/.bin/eslint src/*.js"
   },
   "repository": {
     "type": "git",
